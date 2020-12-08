@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Pirata One", cursive;
+  font-size: 2rem;
+  background-color: #ffba93;
+  color: #583d72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+.movie-container {
+  margin: 20px 0;
+}
+.movie-container select {
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: "Pirata One", cursive;
+  margin-left: 10px;
+  padding: 5px 10px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.container {
+  perspective: 1000px;
+  margin-bottom: 20px;
+}
+.seat {
+  background-color: #ccc;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.selected {
+  background-color: #9f5f80;
+}
+.occupied {
+  background-color: #ff8e71;
+}
+.seat:nth-of-type(2) {
+  margin-right: 20px;
+}
+.seat:nth-last-of-type(2) {
+  margin-left: 20px;
+}
+.seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.showcase .seat:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+.showcase {
+  background-color: rgba(0, 0, 0, 0.1);
+  pad: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+.showcase li small {
+  margin-left: 2px;
+}
+.row {
+  display: flex;
+}
+.screen {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  margin: 15px 0;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+p.text {
+  margin: 5px 0;
+}
+p.text span {
+  color: #9f5f80;
+}
