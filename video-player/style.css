@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat Subrayada", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  margin: 0;
+  background-color: #bedbbb;
+}
+h1 {
+  color: hsl(0, 0%, 15%);
+}
+.screen {
+  cursor: pointer;
+  width: 60%;
+  background-color: #8db596;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 1rem;
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.controls {
+  background-color: #8db596;
+  color: #262626;
+  width: 60%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.controls .btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.controls .fa-play {
+  color: #01df70;
+}
+.controls .fa-stop {
+  color: #262626;
+}
+.controls .pause {
+  color: #fff;
+}
+.controls .timestamp {
+  color: #262626;
+  font-weight: bold;
+  margin-left: 10px;
+}
+@media screen and (max-width: 800px) {
+  .screen.controls {
+    width: 90%;
+  }
+}
