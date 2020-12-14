@@ -16,3 +16,7 @@ Brad Traversy course
 4.exchange rate calculator [blog](https://diyifang.medium.com/exchange-rate-calculator-with-javascript-3f22a78dc0f)
 
 ![](https://cdn-images-1.medium.com/max/800/1*16rpBEoGrcDy7oSOHRU8fA.gif)
+
+5.wealth list [blog](https://diyifang.medium.com/-3f22a78dc0f)
+
+![](https://cdn-images-1.medium.com/max/800/1*NI2Sw-215pG2uuKGGjTgSA.gif)
