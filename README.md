@@ -17,6 +17,6 @@ Brad Traversy course
 
 ![](https://cdn-images-1.medium.com/max/800/1*16rpBEoGrcDy7oSOHRU8fA.gif)
 
-5.wealth list [blog](https://diyifang.medium.com/-3f22a78dc0f)
+5.wealth list [blog](https://diyifang.medium.com/wealth-list-with-javascript-array-methods-4751a7eaf1d0)
 
 ![](https://cdn-images-1.medium.com/max/800/1*NI2Sw-215pG2uuKGGjTgSA.gif)
