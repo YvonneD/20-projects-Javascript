@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Anaheim&display=swap");
+:root {
+  --modal-duration: 1s;
+  --bg-color: #eeeeee;
+  --line-color: #393e46;
+  --primary-color: #222831;
+  --secondary-color: #ffd369;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Anaheim", sans-serif;
+  margin: 0;
+  background-color: var(--bg-color);
+  transition: transform 0.3s ease;
+}
+body.show-nav {
+  transform: translateX(200px);
+}
+nav {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  z-index: 100;
+  transform: translateX(-100%);
+}
+nav .logo {
+  padding: 30px 0;
+  text-align: center;
+}
+nav .logo img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px #141516;
+  transition: all var(--modal-duration);
+}
+nav .logo img:hover {
+  box-shadow: 0px 0px 20px #333a42;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+nav ul li {
+  border-bottom: 2px dashed var(--line-color);
+  text-align: center;
+  padding: 5px 0;
+}
+nav ul li:first-of-type {
+  border-top: 2px dashed var(--line-color);
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+header {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  font-size: 1.2rem;
+  padding: 40px 15px;
+  text-align: center;
+  position: relative;
+}
+header h1 {
+  margin: 0;
+}
+header p {
+  margin: 30px 0;
+}
+button,
+input[type="submit"] {
+  background-color: var(--secondary-color);
+  border: 0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
+button:focus {
+  outline: none;
+}
+.toggle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.cta-btn {
+  padding: 12px 30px;
+  font-size: 20px;
+}
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+}
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.modal-container.show-modal {
+  display: block;
+}
+.modal {
+  background-color: var(--line-color);
+  color: var(--bg-color);
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: 0 0 10px rgba(65, 63, 63, 0.6);
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 400px;
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+.modal-header {
+  background-color: var(--primary-color);
+  padding: 15px;
+}
+.modal-header h3 {
+  text-align: right;
+  font-size: 1.3rem;
+  margin: 0;
+  border-bottom: 1px solid var(--secondary-color);
+}
+.modal-content {
+  padding: 10px;
+}
+.modal-form div {
+  margin: 15px 0;
+}
+.modal-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.modal-form .form-input {
+  padding: 8px;
+  width: 100%;
+}
+.close-btn {
+  background: transparent;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

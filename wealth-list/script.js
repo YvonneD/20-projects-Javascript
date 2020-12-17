@@ -7,14 +7,14 @@ const calculateTotal=document.getElementById('calculate')
 
 let data=[]
 
+const proxy='https://cors-anywhere.herokuapp.com/'
+ // 
 //fetch random user and money
-async function getRandomUser(){
-    // const proxy='https://cors-anywhere.herokuapp.com/'
-    // const proxy='https://api.allorigins.win/raw?url='
+async function getRandomUser(){     
     const url='https://randomuser.me/api/'
     const res=await fetch(url, {
         mode: 'cors'
-      })
+        })
     const data=await res.json()
     const user=data.results[0]
     console.log(data)
