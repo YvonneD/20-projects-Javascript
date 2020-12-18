@@ -24,3 +24,7 @@ Brad Traversy course
 6.menu-slider [blog](https://diyifang.medium.com/side-menu-and-modal-with-javascript-ffa5669fef40)
 
 ![](https://cdn-images-1.medium.com/max/800/1*0aqVfRX0jFchV7fbqgBNUw.gif)
+
+7.hangman [blog](https://diyifang.medium.com/how-to-create-a-hangman-game-with-javascript-5b8f18cb70d4)
+
+![](https://cdn-images-1.medium.com/max/800/1*6N1MEcOMgLDRNwDwc51r7Q.gif)

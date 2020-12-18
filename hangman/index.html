@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>hangman</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>hangman</h1>
+        <p>Please enter the guessing letter</p>
+        <div class="game-container">
+            <svg height="250" width="200" class="figure-container">
+                <!-- rode -->
+                <line x1="60" y1="20" x2="140" y2="20"></line>
+                <line x1="140" y1="20" x2="140" y2="50"></line>
+                <line x1="60" y1="20" x2="60" y2="230"></line>
+                <line x1="20" y1="230" x2="100" y2="230"></line>
+                <!-- head -->
+                <circle cx="140" cy="70" r="20" class="figure-part"></circle>
+                <!-- body -->
+                <line x1="140" y1="90" x2="140" y2="150" class="figure-part"></line>
+                <!-- arm -->
+                <line x1="140" y1="120" x2="120" y2="100" class="figure-part"></line>
+                <line x1="140" y1="120" x2="160" y2="100" class="figure-part"></line>
+                <!-- legs -->
+                <line x1="140" y1="150" x2="120" y2="180" class="figure-part"></line>
+                <line x1="140" y1="150" x2="160" y2="180" class="figure-part"></line>
+            </svg>
+
+            <div class="wrong-letters-container">
+                <div id="wrong-letters">
+                    <!-- wrong span -->
+                </div>
+            </div>
+            <div class="word" id="word">
+                <!-- letter -->
+            </div>
+        </div>
+
+        <!-- final message -->
+        <div class="popup-container" id="popup-container">
+            <div class="popup">
+                <h2 id="final-message">You won!</h2>
+                <button id="play-button">Play again!</button>
+            </div>
+        </div>
+
+        <!-- notification -->
+        <div class="notification-container" id="notification-container">
+            <p>You have tried this letter!</p>
+        </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
