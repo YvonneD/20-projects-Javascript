@@ -28,3 +28,7 @@ Brad Traversy course
 7.hangman [blog](https://diyifang.medium.com/how-to-create-a-hangman-game-with-javascript-5b8f18cb70d4)
 
 ![](https://cdn-images-1.medium.com/max/800/1*6N1MEcOMgLDRNwDwc51r7Q.gif)
+
+8.meal finder [blog](https://diyifang.medium.com/meal-finder-using-mealdb-api-3f111c26953c)
+
+![](https://miro.medium.com/max/400/0*d7xR6Sv_D0rwc-bp.gif)
