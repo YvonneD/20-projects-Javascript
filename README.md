@@ -28,3 +28,7 @@ Brad Traversy course
 7.hangman [blog](https://diyifang.medium.com/how-to-create-a-hangman-game-with-javascript-5b8f18cb70d4)
 
 ![](https://cdn-images-1.medium.com/max/800/1*6N1MEcOMgLDRNwDwc51r7Q.gif)
+
+8.expense traker [blog](https://diyifang.medium.com/how-to-create-a-hangman-game-with-javascript-5b8f18cb70d4)
+
+![](https://1.bp.blogspot.com/-0X7xY4E3UuA/X-IlsA5OMmI/AAAAAAAAD-M/h5lax8NcQ0IInB7iViF_KpiEDxGrIVMcACLcBGAsYHQ/w293-h640/%25E8%25AE%25B0%25E5%25BD%2595.gif)
