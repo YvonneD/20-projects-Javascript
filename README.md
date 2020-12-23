@@ -38,3 +38,7 @@ Brad Traversy course
 
 ![](https://1.bp.blogspot.com/-0X7xY4E3UuA/X-IlsA5OMmI/AAAAAAAAD-M/h5lax8NcQ0IInB7iViF_KpiEDxGrIVMcACLcBGAsYHQ/w293-h640/%25E8%25AE%25B0%25E5%25BD%2595.gif)
 
+10.meal finder [blog](https://diyifang.medium.com/meal-finder-using-mealdb-api-3f111c26953c)
+
+![](https://1.bp.blogspot.com/-P5exgiKyNj4/X-N45_pF6HI/AAAAAAAAEAE/eqSnsBj3UkgWkeF5juj-We4OneEcrFaVwCLcBGAsYHQ/w400-h215/%25E6%25B3%2595%25E8%25A7%2584%25E5%258F%258A%25E4%25BC%259A%25E8%25AE%25A1.gif)
+
