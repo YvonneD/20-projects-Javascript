@@ -45,3 +45,6 @@ Brad Traversy course
 
 ![](https://1.bp.blogspot.com/-mmeXLeRqfDM/X-ZePIaMftI/AAAAAAAAECU/R5c4_sJuzvARaj9DoME9FSfWFsKlzXwVwCLcBGAsYHQ/w351-h400/%25E6%25B3%2595%25E8%25A7%2584%25E5%2592%258C%25E7%25BB%258F%25E6%25B5%258E.gif)
 
+12.typing game [blog](https://diyifang.medium.com/typing-game-with-javascript-7eb464872f7c)
+
+![](https://miro.medium.com/max/400/0*pVdqb-R0NSGck6e1.gif)
