@@ -41,7 +41,7 @@ Brad Traversy course
 
 ![](https://1.bp.blogspot.com/-P5exgiKyNj4/X-N45_pF6HI/AAAAAAAAEAE/eqSnsBj3UkgWkeF5juj-We4OneEcrFaVwCLcBGAsYHQ/w400-h215/%25E6%25B3%2595%25E8%25A7%2584%25E5%258F%258A%25E4%25BC%259A%25E8%25AE%25A1.gif)
 
-11.infinite scroll posts [blog](https://diyifang.medium.com/meal-finder-using-mealdb-api-3f111c26953c)
+11.infinite scroll posts [blog](https://diyifang.medium.com/infinite-scroll-blogs-with-javascript-9e7c23f82a89)
 
 ![](https://1.bp.blogspot.com/-mmeXLeRqfDM/X-ZePIaMftI/AAAAAAAAECU/R5c4_sJuzvARaj9DoME9FSfWFsKlzXwVwCLcBGAsYHQ/w351-h400/%25E6%25B3%2595%25E8%25A7%2584%25E5%2592%258C%25E7%25BB%258F%25E6%25B5%258E.gif)
 
