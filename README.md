@@ -48,3 +48,7 @@ Brad Traversy course
 12.typing game [blog](https://diyifang.medium.com/typing-game-with-javascript-7eb464872f7c)
 
 ![](https://miro.medium.com/max/400/0*pVdqb-R0NSGck6e1.gif)
+
+13.speech text reader [blog](https://diyifang.medium.com/speech-text-reader-with-javascript-a1d6b69e144d)
+
+![](https://cdn-images-1.medium.com/max/800/0*r7w29xnR-QJDwuoC.gif)
