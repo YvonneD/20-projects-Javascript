@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>memory cards</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <button id="clear" class="clear btn">
+      <i class="fas fa-trash"></i>Clear cards
+    </button>
+    <h1>
+      Memory cards
+      <button id="show" class="btn btn-small">
+        <i class="fas fa-plus"></i>add new card
+      </button>
+    </h1>
+    <div id="cards-container" class="cards"></div>
+    <div class="navigation">
+      <button id="prev" class="nav-button">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <p id="current"></p>
+      <button id="next" class="nav-button">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+    <div id="add-container" class="add-container">
+      <h1>
+        add new cards
+        <button id="hide" class="btn btn-small btn-ghost">
+          <i class="fas fa-times"></i>
+        </button>
+      </h1>
+      <div class="form-group">
+        <label for="question"></label>
+        <textarea
+          name="question"
+          id="question"
+          placeholder="enter question..."
+        ></textarea>
+      </div>
+      <div class="form-group">
+        <label for="answer"></label>
+        <textarea
+          name="answer"
+          id="answer"
+          placeholder="enter answer..."
+        ></textarea>
+      </div>
+      <button id="add-card" class="btn">
+        <i class="fas fa-plus"></i>Add card
+      </button>
+    </div>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
