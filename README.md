@@ -52,3 +52,7 @@ Brad Traversy course
 13.speech text reader [blog](https://diyifang.medium.com/speech-text-reader-with-javascript-a1d6b69e144d)
 
 ![](https://cdn-images-1.medium.com/max/800/0*r7w29xnR-QJDwuoC.gif)
+
+14.memory cards [blog](https://diyifang.medium.com/memory-cards-with-javascript-2386e8775cc3)
+
+![](https://miro.medium.com/max/400/0*JUCBljPLEsVSWDEi.gif)
