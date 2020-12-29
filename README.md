@@ -56,3 +56,7 @@ Brad Traversy course
 14.memory cards [blog](https://diyifang.medium.com/memory-cards-with-javascript-2386e8775cc3)
 
 ![](https://miro.medium.com/max/400/0*JUCBljPLEsVSWDEi.gif)
+
+15.lyrics search [blog](https://diyifang.medium.com/lyrics-search-with-javascript-1cad8dc5302e)
+
+![](https://miro.medium.com/max/327/0*c_H0r1vZ4tsHl88-.gif)
