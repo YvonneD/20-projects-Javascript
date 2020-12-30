@@ -60,3 +60,7 @@ Brad Traversy course
 15.lyrics search [blog](https://diyifang.medium.com/lyrics-search-with-javascript-1cad8dc5302e)
 
 ![](https://miro.medium.com/max/327/0*c_H0r1vZ4tsHl88-.gif)
+
+16.relaxer app [blog](https://diyifang.medium.com/relaxer-app-with-javascript-74f1f06eb881)
+
+![](https://miro.medium.com/max/398/0*KA7HPMYho0GZiPM0.gif)
