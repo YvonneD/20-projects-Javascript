@@ -64,3 +64,7 @@ Brad Traversy course
 16.relaxer app [blog](https://diyifang.medium.com/relaxer-app-with-javascript-74f1f06eb881)
 
 ![](https://miro.medium.com/max/398/0*KA7HPMYho0GZiPM0.gif)
+
+17.breakout game [blog](https://diyifang.medium.com/breakout-game-with-javascript-dc205b43b491)
+
+![](https://miro.medium.com/max/400/0*4QcTmw-4_cctxUE1.gif)
