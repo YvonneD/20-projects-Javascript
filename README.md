@@ -68,3 +68,7 @@ Brad Traversy course
 17.breakout game [blog](https://diyifang.medium.com/breakout-game-with-javascript-dc205b43b491)
 
 ![](https://miro.medium.com/max/400/0*4QcTmw-4_cctxUE1.gif)
+
+18.new year countdown [blog](https://diyifang.medium.com/newyear-countdown-with-javascript-5cd900edd611)
+
+![](https://miro.medium.com/max/700/1*CFzSosLX-X9OfbYnkkYt_w.gif)
