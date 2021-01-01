@@ -76,3 +76,7 @@ Brad Traversy course
 19.sortable list [blog](https://diyifang.medium.com/draggable-sorted-list-with-javascript-477799f7f143)
 
 ![](https://miro.medium.com/max/253/0*O_nBL8i9lcO9bF5I.gif)
+
+20.speak guessing number game [blog](https://diyifang.medium.com/speak-guessing-number-game-with-javascript-531864cedd4)
+
+![](https://miro.medium.com/max/400/0*nnMhTKk8yvOdwd83.gif)
