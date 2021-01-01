@@ -72,3 +72,7 @@ Brad Traversy course
 18.new year countdown [blog](https://diyifang.medium.com/newyear-countdown-with-javascript-5cd900edd611)
 
 ![](https://miro.medium.com/max/700/1*CFzSosLX-X9OfbYnkkYt_w.gif)
+
+19.sortable list [blog](https://diyifang.medium.com/draggable-sorted-list-with-javascript-477799f7f143)
+
+![](https://miro.medium.com/max/253/0*O_nBL8i9lcO9bF5I.gif)
